@@ -10,7 +10,8 @@ header div.container{
 }
 
 header div.container p{
-    font-size: 10px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 19px;
     color: #FAFAFA;
     opacity: 0.85;

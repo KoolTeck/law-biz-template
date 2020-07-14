@@ -1,5 +1,5 @@
 body{
-    font-family: roboto;
+    font-family:'Roboto', sans-serif;;
     background-color: #FFFFFF;
 }
 
@@ -27,7 +27,7 @@ header div.container hr{
     padding: 0;
 }
 #top-section{
-    height: 600px;
+    height: auto;
     background-color: #000000;;
     background-image: url("../images-local/local1.png");
     background-repeat: no-repeat;
@@ -135,7 +135,7 @@ button{
 
 /* aBout */
 #about{
-    height: 400px;
+    height: auto;
 }
 
 #about div.card1{
