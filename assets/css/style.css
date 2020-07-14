@@ -1,5 +1,5 @@
 body{
-    font-family: roboto;
+    font-family:'Roboto', sans-serif;;
     background-color: #FFFFFF;
 }
 
@@ -10,7 +10,8 @@ header div.container{
 }
 
 header div.container p{
-    font-size: 10px;
+    font-weight: 500;
+    font-size: 16px;    
     line-height: 19px;
     color: #FAFAFA;
     opacity: 0.85;
@@ -21,13 +22,18 @@ header div.container span a img{
     padding: 5px;
 }
 
+a {
+   color: #CF9455;
+    text-decoration: none;
+}
+
 header div.container hr{
     background: #FFFFFF;
     opacity: 0.2;
     padding: 0;
 }
 #top-section{
-    height: 600px;
+    height: auto;
     background-color: #000000;;
     background-image: url("../images/image 2.png");
     background-repeat: no-repeat;
@@ -70,8 +76,8 @@ header div.container hr{
 
 .navbar-light .navbar-nav .nav-link {
     color: #FFFFFF;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
@@ -90,20 +96,22 @@ header div.container hr{
 
 #top-section div.upper-card{
     width: 100%;
-    margin-top: 200px;
+    margin-top: 50px;
     padding-left: 150px;
     text-align: left;
     color: #FFFFFF;
 }
 
 #top-section div.upper-card h6{
-    font-size: 10px;
-    line-height: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 #top-section div.upper-card  h2{
-    font-size: 45px;
-    line-height: 50px;
+    font-size: 64px;
+    line-height: 85px;
     font-family: 'Playfair Display', serif;
 }
 
@@ -135,7 +143,7 @@ button{
 
 /* aBout */
 #about{
-    height: 400px;
+    height: auto;
 }
 
 #about div.card1{
@@ -153,22 +161,26 @@ button{
 }
 
 #about div.card2 h2{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 36px;
+    line-height: 48px;
     color: #212121;
-    margin-top: 80px;
 }
 
 #about div.card2  h6{
-    font-size: 11px;
-    line-height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px; 
     color: #424242;
 }
 
 #about div.card2  p{
+    font-style: normal;
+    font-weight: normal;
     font-size: 16px;
     line-height: 30px;
 }
@@ -180,7 +192,13 @@ button{
 }
 
 #about div.card2 button span{
-    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
 }
 
 #about div.card2 div.sign{
@@ -200,9 +218,8 @@ button{
 #portfolio h5{
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 23px;
-    padding-top: 50px;
 }
 
 #portfolio h2{
@@ -218,13 +235,14 @@ button{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-weight: normal;
+    font-size: 16px;
     line-height: 19px;
     color: #212121;
 }
 
 #portfolio div.card p{
-    font-size: 15px;
+    font-size: 16px;
     line-height: 28px;
     text-align: center;
     color: #424242;
@@ -244,10 +262,11 @@ button{
     line-height: 23px;
     padding-top: 50px;
     text-align: center;
+    
 }
 
 #reasons h2{     
-    font-family: Playfair Display;
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: bold;
     font-size: 46px;
@@ -264,6 +283,7 @@ button{
 }
 
 #reasons div.card h6{
+    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
@@ -296,18 +316,25 @@ button{
 }
 
 #stats div.card div.stat p{
-    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
     line-height: 28px;
 }
 
 #stats div.card  button {
     border-radius: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
     background-color: #CF9455;
 }
 #stats div.card div.stat span{
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    margin-top: 50px;
 }
 
 #stats div.card h4{
@@ -406,18 +433,108 @@ button{
 
 #testimonial{
     background-color: #282E3F;
-    height: 250px;
+    height: auto;
     text-align: center;
+    position: relative;
 }
+
+#testimonial div.person1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    left: 5px;
+    right: 0;
+    top: 20px;
+    bottom: 0;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* top: 5643px; */
+    opacity: 0.5;
+    background-color: #C4C4C4;
+}
+
+#testimonial div.person2{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    border-radius: 72px;
+    left: 5px;
+    right: 0;
+    top: 150px;
+    bottom: 0;
+    background-image: url(../images/Rectangle\ 3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* top: 5643px; */
+    opacity: 0.5;
+    background-color: #C4C4C4;
+}
+
+#testimonial div.person3{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    left: 110px;
+    right: 0;
+    top: 40px;
+    bottom: 0;
+    background-image: url(../images/Rectangle\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    background-color: #C4C4C4;
+}
+
+#testimonial div.person4{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 22px;
+    left: 90px;
+    right: 0;
+    top: 120px;
+    bottom: 0;
+    background-image: url(../images/Rectangle\ 5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    background-color: #C4C4C4;
+}
+
+#testimonial div.person5{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    left: 90%;
+    right: 0;
+    top: 40%;
+    bottom: 0;
+    background-image: url(../images/Rectangle\ 6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    background-color: #C4C4C4;
+}
+
+
 
 #testimonial h3{
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 46px;
     line-height: 61px;
-    color: #FFFFFF;
     margin-top: 50px;
+    color: #FFFFFF;
 }
 
 #testimonial div.video{
@@ -660,7 +777,11 @@ footer div.container span{
     }
 
     #top-section div.upper-card button{
-        font-size: 15px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
     }
 
     #carouselExampleIndicators > div > div.carousel-item.active > div > br{
@@ -814,3 +935,60 @@ footer div.container span{
         text-align: center;
     }
 }
+
+@media screen and (max-width:360px){
+    /* #testimonial br{
+        display: none;
+    } */
+
+    #testimonial h3 {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    #testimonial div.person1 {
+        left: 5px;
+        right: 0;
+        top: 10px;
+        bottom: 0;
+    }
+
+    #testimonial div.person2 {
+        left: 5px;
+        right: 0;
+        top: 80%;
+    }
+
+    #testimonial div.person3 {
+        left: 80%;
+        right: 0;
+        top: 12%;
+    }
+
+    #testimonial div.person4 {
+        left: 80%;
+        right: 0;
+        top: 40%;
+    }
+
+    #testimonial div.person5 {
+        left: 80%;
+        right: 0;
+        top: 90%;
+    }
+
+    #counselling div.col {
+        flex-basis: auto;
+        margin: 4px;
+    }
+
+    #counselling > div > div > div:nth-child(2) > form > br:nth-child(4){
+        display: none;
+    }
+
+    #counselling form textarea {
+        margin-top: 4px;
+    }
+}
+
+
