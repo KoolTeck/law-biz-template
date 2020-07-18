@@ -803,7 +803,7 @@ footer div.container span{
         padding-top: 80px;
     }
     #mail-contact form input{
-        width: 210px;
+        width: 100%;
     }
     #quick-link h6{
         font-size: 15px;

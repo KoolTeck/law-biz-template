@@ -811,3 +811,11 @@ footer div.container span{
         text-align: center;
     }
 }
+
+
+@media screen and (max-width:300px){
+    #mail-contact form input {
+        width: 100%;
+    }
+    
+}
