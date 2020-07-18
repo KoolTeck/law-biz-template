@@ -847,6 +847,14 @@ footer div.container span{
     #blog div.card p{
         font-size: 13px;
     }
+
+    #about div.card2 p {
+        text-align: center;
+    }
+
+    #stories div.card p {
+        text-align: center;
+    }
 }
 @media screen and (max-width:500px){
     #about div.card2 h2{
