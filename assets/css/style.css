@@ -855,14 +855,22 @@ footer div.container span{
     #stories div.card p {
         text-align: center;
     }
+
+    #about div.card1 {
+        margin: 0;
+    }
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
 @media screen and (max-width:500px){
     #about div.card2 h2{
         margin-top: 0;
         text-align: center;
     }
-    #about div.card1{
-        margin: 30px;
+    #about div.card1 {
+        margin: 0;
     }
 
     #about hr{
