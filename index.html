@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/lib/animate.min.css">
+    <!-- <link rel="stylesheet" href="./assets/css/lib/animate.min.css"> -->
     <link rel="stylesheet" href="./assets/css/lib/aos.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Legal-firm|Template</title>
@@ -455,29 +455,30 @@
             </div>
 
             <div class="col-sm-12 col-md-6 col-lg-6" data-aos="zoom-outdata-aos-duration="2000" data-aos-easing="ease-in-quad">
-                <form>
+                <form method="POST"
+                action="https://api.slapform.com/your@email.com">
                     <div class="row">
                       <div class="col">
-                        <input type="text" class="form-control" placeholder="YOUR NAME">
+                        <input type="text" class="form-control" required name="name" placeholder="YOUR NAME">
                       </div>
                       <div class="col">
-                        <input type="text" class="form-control" placeholder="PHONE">
+                        <input type="text" class="form-control" required name="phone" placeholder="PHONE">
                       </div>
 
                     </div> <br>
 
                     <div class="row">
                         <div class="col">
-                          <input type="email" class="form-control" placeholder="EMAIL">
+                          <input type="email" name="email" required class="form-control" placeholder="EMAIL">
                         </div>
                         <div class="col">
-                          <input type="text" class="form-control" placeholder="BUSINESS LAW">
+                          <input type="text" name="law" required class="form-control" placeholder="BUSINESS LAW">
                         </div>
                   </div> <br>
                       
 
                     <div class="form-group">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="CASE DESCRIPTION"  rows="3"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="CASE DESCRIPTION" name="case" required rows="3"></textarea>
                     </div> <br>
                       <button type="submit" class="btn btn-light btn-md">APPOINTMENT</button>
                   </form>
@@ -595,12 +596,13 @@
                 Stay updated with news <br>
                 Subscribe to our Newsletter
             </h4>
-            <form>
+            <form method="POST"
+            action="https://api.slapform.com/your@email.com">
                 <div class="row">
                   <div class="col">
                     <div class="form-row align-items-center">
                        <div class="mr-aut0">
-                        <input type="email" class="form-control" id="inlineFormInput" placeholder="Email Address">
+                        <input type="email" name="email" required class="form-control" id="inlineFormInput" placeholder="Email Address">
                        </div>
                        <div class="col">
                             <button type="submit" class="btn btn-md">SUBSCRIBE</button>
