@@ -859,10 +859,6 @@ footer div.container span{
     #about div.card1 {
         margin: 0;
     }
-    .row {
-        margin-right: 0;
-        margin-left: 0;
-    }
 }
 @media screen and (max-width:500px){
     #about div.card2 h2{
@@ -964,10 +960,6 @@ footer div.container span{
 }
 
 @media screen and (max-width:360px){
-    /* #testimonial br{
-        display: none;
-    } */
-
     #testimonial h3 {
         font-size: 25px;
         margin-top: 10px;
@@ -1015,6 +1007,15 @@ footer div.container span{
 
     #counselling form textarea {
         margin-top: 4px;
+    }
+
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #testimonial > div > div > div:nth-child(2) > div > iframe{
+        width: 90%;
     }
 }
 
