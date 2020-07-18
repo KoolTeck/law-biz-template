@@ -814,6 +814,10 @@ footer div.container span{
     footer div.container p{
         font-size: 12px;
     }
+
+    #stories {
+        height: auto;
+    }
 }
 
 @media screen and (max-width:620px){
