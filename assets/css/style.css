@@ -766,6 +766,13 @@ footer div.container span{
 
     .navbar-nav {
         margin-left: 0px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: #CF9455;
     }
 
     .navbar-nav li {
