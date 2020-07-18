@@ -1017,6 +1017,10 @@ footer div.container span{
     #testimonial > div > div > div:nth-child(2) > div > iframe{
         width: 90%;
     }
+
+    #about div.card1 {
+        height: 400px;
+    }
 }
 
 
